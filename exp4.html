@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+    <form>
+        <h2>Hotel Room Booking Form</h2>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" placeholder="enrer the full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id=""><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id=""><br><br>
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" name="checkin" id=""><br><br>
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" name="checkout" id="checkout"><br><br>
+
+        <label for="roomtype">Room Type:</label>
+        <select name="roomtype" id="roomtype">
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Suite</option>
+        </select><br><br>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" name="guests" id="guests" min="1"><br><br>
+
+        <label for="requests">Special Requests:</label><br>
+        <textarea name="requests" id="requests" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>
