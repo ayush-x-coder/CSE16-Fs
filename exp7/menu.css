@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/* Block example*/
+.block-menu a {
+  display: block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  margin:5px ;
+  text-decoration: none;
+}
+
+/* Inline example*/
+.inline-menu a {
+  display:inline;
+  background-color: #09af1c;
+  color:white;
+  padding: 10px ;
+  margin:5px;
+  text-decoration: none;
+
+}
+/* Inline Block Example*/
+.inline-block-menu a{
+   display:inline-block;
+   background-color:rgba(128, 0, 128, 0.678);
+   color:white;
+   padding: 10px;
+   margin:5px;
+   text-decoration: none;
+}
+
+/*Float example*/
+.float-menu a {
+  float: left;
+  background-color: rgba(0, 115, 255, 0.753);
+  color:white;
+  padding:10px;
+  text-decoration: none;
+  margin:5px;
+}
+
